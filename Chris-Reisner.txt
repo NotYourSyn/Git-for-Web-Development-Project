@@ -10,8 +10,8 @@ https://codepen.io/chrisreisner/pen/jOPqrdP
     // Attributes are used to provide additional iunformation about an element and should be specified in the opening tag.
 
     4. What is the h1 tag used for? How many times should I use it on a page?
-    // H1 tag is the main Title tag and is generally only used once on a page
-    .
+    // H1 tag is the main Title tag and is generally only used once on a page.
+    
     5. Name two tags that have required attributes
     // anchor tag <a> needs 'href' attribute and image tag <img> needs 'src' attribute
 
@@ -78,6 +78,7 @@ https://codepen.io/chrisreisner/pen/jOPqrdP
 
     26. What do we use to change the spacing between letters?
     // letter-spacing
+
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
     // text-transform: uppercase; lowercase; capitalize
 
@@ -112,12 +113,26 @@ https://codepen.io/chrisreisner/pen/jOPqrdP
 
     37. Walk me through Lambda's git flow. 
     // First you fork, then add TL as contributor, then clone, then code, then add, then commit, then push to github, then pull request from 
-    your Firstname-Lastname file to your forked master adding your TL as a reviewer in the process
+       your Firstname-Lastname file to your forked master adding your TL as a reviewer in the process
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+    // Formatting, inline elements do not force a new line to begin in the document, whereas with block elements thre's usually a line break.
+       You cant put block elements inside inline elements.
+
     2. What happens when an element is positioned absolutely? 
-    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    // its placed precisely to what you set the parameters too. if a parent element is set to relative and a chils element set to absolute,
+       additional positioning will be done relative to the parent
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+    // With a flexbox
+
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    5. In your own words, explain the box model. What is the fix for the box model? 
+    // <p>, <li>, <div> (block by default), <img>, <span> (inline by default) <button> (inline-block by default)
+
+    5. In your own words, explain the box model. What is the fix for the box model?
+    // All HTML elements can be considered as boxes so in CSS we use the term 'box model' talking about the layout, it consists of 4 parts or areas: content
+       edge, padding edge, border edge, and margin edge. The fix for this is box-sizing property, it has 3 possible values: content-box, padding-box, and 
+       border-box (most popular). 
+
